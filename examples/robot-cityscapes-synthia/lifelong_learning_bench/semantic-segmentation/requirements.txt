@@ -1,0 +1,11 @@
+# Additional dependencies for the ERFNet semantic-segmentation lifelong
+# learning example, not covered by the repo-root requirements.txt.
+torch>=1.13.0,<2.0.0
+torchvision>=0.14.0,<0.15.0
+Pillow>=9.0.0
+opencv-python>=4.5.0
+scipy>=1.7.0,<1.9.0
+seaborn>=0.11.0
+fastapi>=0.95.0
+uvicorn>=0.20.0
+pydantic>=1.10.0,<2.0.0

@@ -39,6 +39,7 @@ python -m pip install --upgrade pip
 cd ianvs 
 python -m pip install ./resources/third_party/*
 python -m pip install -r requirements.txt
+python -m pip install -r examples/robot-cityscapes-synthia/lifelong_learning_bench/semantic-segmentation/requirements.txt
 ```
 
 We are now ready to install Ianvs. 
