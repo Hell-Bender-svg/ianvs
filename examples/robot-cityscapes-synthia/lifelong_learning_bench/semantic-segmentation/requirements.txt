@@ -1,7 +1,10 @@
 # Additional dependencies for the ERFNet semantic-segmentation lifelong
 # learning example, not covered by the repo-root requirements.txt.
-torch>=1.13.0,<2.0.0
-torchvision>=0.14.0,<0.15.0
+#
+# torch/torchvision left unbounded above the floor: pinning <2.0.0 has
+# no matching wheels on Python 3.12+, verified during dependency audit.
+torch>=1.13.0
+torchvision>=0.14.0
 Pillow>=9.0.0
 opencv-python>=4.5.0
 scipy>=1.7.0,<1.9.0
